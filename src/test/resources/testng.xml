@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Flipkart Automation Suite" verbose="1">
+
+    <test name="Smoke Tests">
+
+        <classes>
+
+            <class name="com.flipkart.automation.tests.HomePageTest"/>
+
+            <class name="com.flipkart.automation.tests.SearchTest"/>
+
+            <class name="com.flipkart.automation.tests.CartTest"/>
+
+            <class name="com.flipkart.automation.tests.LoginTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
